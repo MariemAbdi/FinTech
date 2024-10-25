@@ -46,7 +46,7 @@ jobs:
       - name: Upload web build artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build/web  # Point to the build/web folder
+          path: ./build/web  # Point to the build/web folder
 
   # Deployment job
   deploy:
